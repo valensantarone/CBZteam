@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1e1f25;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* INDEX */
+
+    /* NAVEGACIÓN */
+
+.nav-one {
+    background-color: #1f2024;
+    padding: 35px;
+}
+
+.brand {
+    margin-left: 300px;
+}
+
+.nav-two {
+    background-color: #36393f;
+    padding: 17px;
+    display: flex;
+}
+
+.ul-main {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 300px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.ul-main a {
+    transition: all 300ms;
+}
+
+.ul-main a:hover {
+    color: rgb(187, 36, 247);
+    transform: scale(1.1);
+}
+
+.redes-list {
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+    margin-left: 300px;
+    font-size: 17px;
+}
+
+.redes-list i {
+    transition: all 300ms;
+}
+
+.redes-list i:hover {
+    transform: scale(1.3);
+}
+
+.redes-list a:hover{
+    color: rgb(187, 36, 247);
+}
+
+.mail {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+    transition: 300ms;
+}
+
+.mail:hover {
+    transform: scale(1.07);
+}
+
+    /* SHOWCASE */
+
+.showcase {
+    width: 100%;
+    height: 600px;
+    background-image: url('data/showcase.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+}
+
+.leer-mas {
+    font-size: 18px;
+    margin-top: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0.7;
+    transition: all 300ms;
+}
+
+.leer-mas:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+    /* INTEGRANTES */
+
+.integrantes {
+    padding: 0px 10px;
+}
+
+.integrantes h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.int-img img {
+    transition: all 300ms;
+}
+
+    /* SHOP SHOWCASE */
+
+.header-shop {
+    margin-top: 50px;
+}
+
+.showcase-shop-index {
+    margin-left: 82px;
+    margin-right: 97px;
+    height: 400px;
+    background-image: url('data/shop/showcase-shop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+}
+
+    /* NOTICIAS DESTACADAS */
+
+.noticias-destacadas {
+    margin: 50px 80px;
+}
+
+.noticias-destacadas-e {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.noticias-destacadas-e h3 {
+    margin-top: 5px;
+}
+
+.noticias-destacadas-e p {
+    margin-right: 25px;
+    text-align: justify;
+    margin-top: 3px;
+}
+
+.leer-mas-2 {
+    opacity: 0.7;
+    transition: all 300ms;
+}
+
+.leer-mas-2:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+   /* HISTORIA SHOWCASE */
+
+   .header-historia {
+    margin-top: 50px;
+}
+
+.showcase-historia-index {
+    margin-left: 82px;
+    margin-right: 85px;
+    height: 400px;
+    background-image: url('data/showcase-historia.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-position: -15px -300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0px 0px 10px black;
+}
+
+    /* CBZ LOGO FOOTER */
+
+.cbz-logo-footer {
+    margin-top: 170px;
+}
+
+.cbz-logo-footer h4 {
+    font-size: 20px;
+     margin-top: 15px;
+     opacity: 0.5;
+     transition: all 300ms;
+}
+
+.cbz-logo-footer h4:hover {
+    opacity: 0.8;
+}
+
+.cbz-logo-footer img {
+    opacity: 0.5;
+    transition: all 300ms;
+}
+
+.cbz-logo-footer img:hover {
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+    /* FOOTER */
+
+footer {
+    background-color: #36393f;
+}
+
+.footer-main {
+    margin-top: 170px;
+}
+
+.footer-one {
+    display: flex;
+}
+
+.footer-main hr {
+    opacity: 0.3;
+    width: 85%;
+    margin-top: 70px;
+}
+
+.redes-list-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 150px;
+    font-size: 17px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.sponsors {
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-between;
+    width: 32.5%;
+}
+
+.cada-sponsor {
+    opacity: 0.5;
+    transition: all 300ms;
+}
+
+.cada-sponsor:hover {
+    opacity: 1;
+}
+
+.copyright {
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* HISTORIA */
+
+.historia-texto {
+    margin: 50px 100px;
+}
+
+.seccion1 {
+    display: flex;
+}
+
+.seccion1 h1 {
+    margin-top: 30px;
+}
+
+.his-texto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.his-ad1 {
+    color: rgb(182, 182, 182);
+    font-size: 13px;
+    text-align: center;
+}
+
+/* PEFIL */
+
+.perfil {
+    margin: 50px 100px;
+}
+
+.perfil h1 {
+    margin-bottom: 20px;
+}
+
+.perfil-foto-stats {
+    display: flex;
+}
+
+.info-clips h2 {
+    margin-bottom: 20px;
+}
+
+.perfil-stats {
+    margin-left: 30px;
+    font-size: 23px;
+}
+
+.perfil-info {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+.stats-renglon {
+    display: flex;
+}
+
+.perfil-stats {
+    width: 30%;
+}
+
+.perfil-stats-second {
+    text-align: right;
+}
+
+.perfil-redes {
+    margin-top: 40px;
+}
+
+.ul-perfil-redes {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.ul-perfil-redes a {
+    transition: all 10ms;
+}
+
+.ul-perfil-redes i {
+    transition: all 400ms;
+}
+
+.ul-perfil-redes a:hover {
+    color: rgb(187, 36, 247);
+}
+.perrostats {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info-clips {
+    display: flex;
+}
+
+/* TIENDA */
+
+.shop-title {
+    margin: 50px 0px;
+    font-size: 20px;
+}
+
+.tienda {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+/* ANIMACIONES*/
+nav{
+    animation-duration: 1.5s;
+    animation-name: nav;
+}
+
+@keyframes nav{
+    from{   
+        transform: translate3d(0,-100%,0);
+        opacity: 0;
+    }
+    to{
+        transform:translate3d(0,0,0);
+        opacity: 1;
+    }    
+}
+
+.int-img figure :hover > img {
+    transform: scale(1.1);
+}
+
+/*
+.ul-main a{
+    background: linear-gradient(rgb(187, 36, 247),rgb(187, 36, 247));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+} 
+
+.ul-main a:hover {
+    background-size: 100% 2px;
+} */
+
+.ul-perfil-redes i:hover {
+    transform: scale(1.3);
+}
+
+.perfil-stats ul-main {
+    background: linear-gradient(rgb(187, 36, 247),rgb(187, 36, 247));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+}
+
+/* NOTICAS */
+
+.noticia-img {
+    background-color: #2a2c3156;
+    text-align: center;
+}
+
+.noticia-body {
+    width: 40%;
+    justify-content: center;
+}
+
+.noticia-body h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.noticia-body h3 {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.noticia-body h4 {
+    font-style: italic;
+    font-size: 17px;
+    text-align: right;
+    margin-right: 80px;
+    opacity: 0.8;
+    margin-bottom: 70px;
+}
+
+.noticia-body p {
+    text-align: justify;
+}
+
+/* RESPONSITY DESING */
+
+@media (max-width: 1500px) {
+    .brand {
+        margin-left: 100px;
+    }
+
+    .ul-main {
+        margin-left: 100px;
+    }
+
+    .redes-list {
+        width: 25%;
+    }
+
+    .showcase {
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+
+    .int-img img{
+        width: 200px;
+    }
+
+    .noticias-destacadas-e {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .noticias-destacadas-e img {
+        width: 550px;
+    }
+
+    .showcase-historia-index {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        background-position-x: center;
+        background-position: -15px -200px;
+    }
+
+    .sponsors {
+        width: 50%;
+    }
+
+    .redes-list-footer {
+        width: 45%;
+    }
+
+    .contacto {
+        margin-left: 20px;
+    }
+
+    .cbz-logo-footer img {
+        width: 175px;
+    }
+
+    .cbz-logo-footer h4 {
+        font-size: 17px;
+    }
+
+    .tienda {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 40px;
+    }
+
+    .tienda img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav-one img {
+        width: 200px;
+        margin-left: 70px;
+    }
+
+    .ul-main {
+        width: 58%;
+        font-size: 14px;
+        margin-left: 70px;
+    }
+
+    .redes-list {
+        width: 45%;
+        font-size: 14px;
+    }
+    
+    .mail {
+        font-size: 13px;
+        margin-right: 20px;
+    }
+
+    .showcase p {
+        width: 80%;
+    }
+
+    .int-img img {
+        width: 150px;
+    }
+
+    .noticias-destacadas-e img {
+        width: 395px;
+    }
+
+    .showcase-historia-index {
+        background-size: cover;
+        background-position: 0 -70px;
+    }
+
+    .sponsors {
+        width: 63%;
+    }
+
+    .cbz-logo-footer img {
+        width: 150px;
+    }
+
+    .cbz-logo-footer h4 {
+        font-size: 13px;
+    }
+
+    .redes-list-footer {
+        width: 55%;
+    }
+
+    .tienda img {
+        width: 270px;
+    }
+}
